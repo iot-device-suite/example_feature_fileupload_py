@@ -64,7 +64,7 @@ for count, file in enumerate(files):
                 f.write(chunk)
 
     # delete the file from the database
-    # requests.delete(f"{URL}/file/{file_id}", headers=headers)
+    # requests.delete(f"{URL}/fileupload/v1/file-upload/file/{file_id}", headers=headers)
     print("#############################################")
 
 
